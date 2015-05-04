@@ -1,0 +1,92 @@
+#brand-name{
+	color:white;
+}
+
+#auto-colours{
+	color:black;
+	font-size:30px;
+	display:block;
+}
+
+#time-stamp{
+	color:black;
+	font-size:12px;
+}
+
+#column-border{
+	border-width:2px;
+	border-color:black;
+	border-left-style:solid;
+}
+
+#header-thing{
+	border-color:gray;
+	border-width:1px;
+	border-style: solid;
+	height:100%;
+	margin:auto;
+}
+
+#pads{
+	margin-bottom: 7px;
+}
+
+#margin-list{
+	margin-right:5%;
+
+	margin-top:5px;
+}
+
+.thumbnail{
+
+	border-style:solid;
+	border-color: #156D81;
+	height: 250px;
+
+}
+
+.thumbnail img{
+	height: 80%;
+	width: 90%;
+}
+
+.caption{	
+	color:white;
+	position: absolute;
+	bottom: 2%;
+}
+.caption h3{
+	color:#156D81;;
+}
+.page-header{
+	margin-left:7%;
+	margin-right:7%;
+}
+#blue-column{
+	background-color: blue;
+	height: 100px;
+}
+
+.padded-panel{
+	margin-top: 5px;
+}
+
+#option-list li{
+	border-style: none;
+}
+
+.most-voted{
+	background-color: #EEEEEE;
+}
+
+.bordered-box{
+	border-style: solid;
+	border-width:1px;
+	border-color: gray;
+}
+
+#panel-concerns{
+	width:70%;
+	height:80%;
+	margin:auto;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Template Selection</title>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+<link rel="stylesheet" type="text/css" href="css/style2.css">
+<link rel="stylesheet" type="text/css" href="css/navbarMarkup.css">
+<link rel="stylesheet" type="text/css" href="css/lachlan.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+  </head>
+
+  <body>
+
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Star Chamber</a>
+          <div type="button" class="btn navbar-btn pull-left" id="slideNoti">Notification <span class="badge" id="notification-count">0</span></div>
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="Menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Report Manager <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#"></a></li>
+                <li><a href="#">Generate reports</a></li>
+                <li><a href="#">View Report</a></li>
+				<li><a href="#">View Summaries</a></li>
+                <li><a href="#">view/create report template</a></li>
+              </ul>
+            </li>
+        
+        <li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Issues manager<span class="caret"></span></a>
+			  <ul class="dropdown-menu" role="menu">
+			    <li><a href="#">View Issues</a></li>
+			  </ul>
+			</li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Invitation manager<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Create meeting poll</a></li>
+            <li><a href="#">view invitation</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">Logout</a></li>
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+	<!--nav bar only-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="list-group">
+				  <a href="#" class="list-group-item active">
+				   	Meeting list
+				  </a>
+				  <a href="#" class="list-group-item">Strata monthly meeting April 2015</a>
+				  <a href="#" class="list-group-item chosen">Client Meeting April 2015</a>
+				  <a href="#" class="list-group-item">Business meeting April 2015</a>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<table class="table table-bordered">
+					<thead class="table-head">
+						 <th colspan="5" class="centered">Client Meeting April 2015 <button type="button" class="btn btn-warning pull-right btn-xs">Can't attend</button>
+			   </th>
+					</thead>
+
+					
+					<tr class="centered">
+						<td colspan="5" class="centered">April-May 2015</td>
+					</tr>
+					
+					<tr>
+						<td colspan="2">Wednesday 22</td>
+						<td colspan="1">Thursday 23</td>
+						<td colspan="2">Saturday 25</td>
+					</tr>
+
+					<tr>
+						<td colspan="1">
+							 <input type="checkbox" aria-label="...">0900-1000
+						</td>
+						
+						<td colspan="1">
+							 <input type="checkbox" aria-label="...">1000-1100
+						</td>
+						
+						<td colspan="1">
+							 <input type="checkbox" aria-label="...">0900-1000
+						</td>
+
+						<td colspan="1">
+							 <input type="checkbox" aria-label="...">1100-1200
+						</td>
+						<td colspan="1">
+							 <input type="checkbox" aria-label="...">1300-1400
+						</td>
+					</tr>
+					<tr>
+						<td colspan="5" class="table-footer">
+							<div class="input-group">
+							    <span class="input-group-btn">
+							      <button class="btn btn-success" type="button">Add issue</button>
+							    </span>
+							    <input type="text" class="form-control" placeholder="Add issue here">
+							</div><!-- /input-group -->
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		
+		
+	</div>
+
+
+
+
+
+	
+
+
+
+</body>
+
+
+</html>

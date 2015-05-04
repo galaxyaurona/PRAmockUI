@@ -1,0 +1,30 @@
+
+
+body,html { overflow-x:hidden; }
+
+
+#notification-column {
+    background: #434A54;
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    left:-350px;
+    top:0px;
+    color:white;
+}
+
+
+.panel{
+    border-color: #156D81;
+}
+.panel .panel-heading{
+    color:white;
+    background:#156D81;
+}
+.btn{
+    font-size: 14px;
+    background: #156D81;
+    color:white;
+    border-color: #156D81;
+}
+
